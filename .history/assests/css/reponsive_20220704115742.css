@@ -1,0 +1,17 @@
+@media (min-width: 723px) and (max-width: 1023px) {
+}
+
+@media (max-width: 736px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-table {
+        margin-bottom: 48px;
+    }
+}

@@ -124,11 +124,6 @@ img {
     color: #32ad1e;
 }
 
-.title_btn.mountain button {
-    border: 1px solid #d74498;
-    color: #d74498;
-}
-
 .title_btn button:hover {
     background-color: #6c136f;
     color: #fff;

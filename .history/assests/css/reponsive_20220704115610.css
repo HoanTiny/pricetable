@@ -1,0 +1,9 @@
+@media (min-width: 723px) and (max-width: 1023px) {
+}
+
+@media (max-width: 736px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

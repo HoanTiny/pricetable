@@ -48,10 +48,6 @@ body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 14px;
-    width: 100%;
-    text-align: center;
-    color: #b6c6c9;
 }
 
 /* .img .text {
@@ -122,11 +118,6 @@ img {
 .title_btn.forest button {
     border: 1px solid #32ad1e;
     color: #32ad1e;
-}
-
-.title_btn.mountain button {
-    border: 1px solid #d74498;
-    color: #d74498;
 }
 
 .title_btn button:hover {
