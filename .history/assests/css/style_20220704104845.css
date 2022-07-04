@@ -42,12 +42,6 @@ body {
     color: #fff;
 }
 
-.img img {
-    /* opacity: 0.8; */
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-}
-
 img {
     width: 100%;
     height: 100%;
@@ -141,11 +135,7 @@ img {
 }
 
 .price.mountain p {
-    color: #d74498;
-}
-
-.price.forest p {
-    color: #32ad1e;
+    color: #6c136f;
 }
 
 .mark {

@@ -23,7 +23,6 @@ body {
     background-color: #fff;
     position: relative;
     margin: 0 24px;
-    border: 1px solid #fff;
 }
 
 .img {
@@ -40,12 +39,6 @@ body {
     font-size: 36px;
     text-transform: uppercase;
     color: #fff;
-}
-
-.img img {
-    /* opacity: 0.8; */
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
 }
 
 img {
@@ -98,16 +91,6 @@ img {
     cursor: pointer;
 }
 
-.title_btn.forest button {
-    border: 1px solid #32ad1e;
-    color: #32ad1e;
-}
-
-.title_btn button:hover {
-    background-color: #6c136f;
-    color: #fff;
-}
-
 .price {
     position: absolute;
     top: -60px;
@@ -134,36 +117,4 @@ img {
 .price span {
     font-size: 16px;
     color: #cfd7dc;
-}
-
-.price.mountain {
-    background-color: #2c2e3d;
-}
-
-.price.mountain p {
-    color: #d74498;
-}
-
-.price.forest p {
-    color: #32ad1e;
-}
-
-.mark {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-}
-
-.mark img {
-    position: relative;
-}
-
-.mark span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
 }

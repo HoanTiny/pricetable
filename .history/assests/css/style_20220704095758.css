@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.price-table {
+    width: 362px;
+    height: 768px;
+}
+
+.img {
+    position: relative;
+    height: 272px;
+    width: 100%;
+}

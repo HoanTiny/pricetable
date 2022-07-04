@@ -43,9 +43,7 @@ body {
 }
 
 .img img {
-    /* opacity: 0.8; */
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    fill: 50%;
 }
 
 img {
