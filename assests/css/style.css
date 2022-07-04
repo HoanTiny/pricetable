@@ -1,6 +1,6 @@
 body {
     background-color: #f5f5f5;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 100;
     font-size: 14px;
     line-height: 1.5;
@@ -54,21 +54,6 @@ body {
     color: #b6c6c9;
 }
 
-/* .img .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-} */
-
-.img img {
-    /* opacity: 0.8; */
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-}
-
 img {
     width: 100%;
     height: 100%;
@@ -82,10 +67,14 @@ img {
 .title_header p {
     font-size: 24px;
     margin: 0;
+    font-weight: 300;
+    color: #5f727f;
 }
 
 .title_header span {
     font-size: 14px;
+    color: #99a9b5;
+    font-weight: 400;
 }
 
 .title_list ul {
@@ -98,6 +87,8 @@ img {
     font-size: 16px;
     height: 50px;
     line-height: 50px;
+    font-weight: 600;
+    color: #7d8c97;
 }
 
 .title_list ul li:nth-child(odd) {
@@ -124,9 +115,19 @@ img {
     color: #32ad1e;
 }
 
+.title_btn.forest button:hover {
+    background-color: #32ad1e;
+    color: #fff;
+}
+
 .title_btn.mountain button {
     border: 1px solid #d74498;
     color: #d74498;
+}
+
+.title_btn.ocean button:hover {
+    background-color: #2196f7;
+    color: #fff;
 }
 
 .title_btn button:hover {
@@ -149,6 +150,7 @@ img {
     text-align: center;
     display: flex;
     flex-direction: column;
+    line-height: 1.2;
 }
 
 .price p {
@@ -182,6 +184,7 @@ img {
 
 .mark img {
     position: relative;
+    display: flex;
 }
 
 .mark span {
